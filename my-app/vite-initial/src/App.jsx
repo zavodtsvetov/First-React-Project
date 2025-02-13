@@ -1,11 +1,12 @@
-
-
+import reactLogo from './assets/react.svg'
 
 export const App = () => {
 	return (
 		<div className="App">
+			<p>Hello World</p>
 			<header className="App-header">
-				<p>Hello World!</p>
+				<img src={reactLogo} alt="React Logo"/>
+
 			</header>
 		</div>
 	);
