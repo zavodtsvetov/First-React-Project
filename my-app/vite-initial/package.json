@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-	"format": "prettier --write ./src"
+    "format": "prettier --write ./src"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -25,7 +25,8 @@
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
     "prettier": "^3.5.0",
-    "vite": "^6.1.0"
+    "vite": "^6.1.0",
+    "vite-plugin-svgr": "^4.3.0"
   },
   "browserslist": {
     "production": [
